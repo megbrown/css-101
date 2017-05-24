@@ -1,3 +1,25 @@
 body {
 	background-color: orange;
 }
+#playground {
+	border: 5px dotted black;
+	color: purple;
+}
+.child {
+	background-color: slategray;
+}
+li {
+	border-bottom: 3px solid red;
+}
+#playground h1 {
+	background-color: blue;
+}
+.child ~ p {
+	background-color: green;
+}
+#playground {
+	display: none;
+}
+h1 {
+	font-family: 'Metamorphous', cursive;
+}
